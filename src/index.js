@@ -5,9 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Counter from './components/counter';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Counter  name="batatinha" 
+              juros= "valor juros"
+              amortizacao=" valor amortizacao"
+              tai = "valor tai"
+              aniversario = "dia aniversario"
+              valorNominalRemanescente = "valor nominal remanescente"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
