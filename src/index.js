@@ -8,12 +8,20 @@ import Counter from './components/counter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter  name="batatinha" 
+    <Counter   
               juros= "valor juros"
               amortizacao=" valor amortizacao"
               tai = "valor tai"
               aniversario = "dia aniversario"
               valorNominalRemanescente = "valor nominal remanescente"
+              valorNominalUnitario= "valor nominal unitario"
+              valorNominalAtual ="valor nominal atual"
+              AMEX ="amex"
+              PMT = "pmt"
+              codigoIf ="codigo IF"
+              serie= "numero da serie"
+              emailAF="clari277@gmail.com"
+              
     />
   </React.StrictMode>,
   document.getElementById('root')

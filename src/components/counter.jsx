@@ -15,8 +15,6 @@ class Counter extends Component {
       postData() {
         // create a new XMLHttpRequest
         var xhr = new XMLHttpRequest()
-    
-
         // open the request with the verb and the url
         xhr.open('POST', 'http://localhost:3002')
         // send the request
