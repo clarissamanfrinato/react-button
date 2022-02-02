@@ -10,9 +10,10 @@ async function main() {
   app.post("/", (req, res) => {
     console.log(req.body);
 
-    sgMail.setApiKey(
-      "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"
-    );
+    sgMail
+      .setApiKey
+      //inserir chave aqui
+      ();
 
     const msg = {
       to: ["clari277@gmail.com", "clarissa.manfrinato@usp.br"], // Change to your recipient
