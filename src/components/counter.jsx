@@ -39,15 +39,11 @@ class Counter extends Component {
                 );
     }
 
-    saySomething(something) {
-        console.log(something);
-        
-    }
 
     handleClick(e) {
         this.setState(prev => ({ count: prev.count + 1 }));
         this.postData();
-        this.saySomething("email enviado");
+        console.log("email enviado");
         
     }
     emailEnviado() {
